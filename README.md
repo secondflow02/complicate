@@ -1,4 +1,4 @@
-# 컨벤션
+# 🖤 코드 컨벤션
 
 ⚠️ 명명 규칙
 
@@ -37,23 +37,23 @@
 ### 1. 커밋 유형 지정
 
 - 커밋 유형 소문자로 시작하기
-  | 커밋 유형        | 의미                                                         |
+  | 커밋 유형 | 의미 |
   | ---------------- | ------------------------------------------------------------ |
-  | feat             | 새로운 기능 추가                                             |
-  | fix              | 버그 수정                                                    |
-  | chore            | 패키지 매니저 수정, 그 외 기타 수정 ex) .gitignore           |
-  | docs             | 문서 수정                                                    |
-  | style            | 코드 formatting, 세미콜론 누락, 코드 자체의 변경이 없는 경우 |
-  | refactor         | 코드 리팩토링                                                |
-  | design           | CSS 등 사용자 UI 디자인 변경                                 |
-  | test             | 테스트 코드, 리팩토링 테스트 코드 추가                       |
-  | ci               | CI관련 설정 수정                                             |
-  | build            | 빌드 관련 파일 수정                                          |
-  | comment          | 필요한 주석 추가 및 변경                                     |
-  | rename           | 파일 또는 폴더 명을 수정하거나 옮기는 작업만인 경우          |
-  | remove           | 파일을 삭제하는 작업만 수행한 경우                           |
-  | !BREAKING CHANGE | 커다란 API 변경의 경우                                       |
-  | !HOTFIX          | 급하게 치명적인 버그를 고쳐야 하는 경우                      |
+  | feat | 새로운 기능 추가 |
+  | fix | 버그 수정 |
+  | chore | 패키지 매니저 수정, 그 외 기타 수정 ex) .gitignore |
+  | docs | 문서 수정 |
+  | style | 코드 formatting, 세미콜론 누락, 코드 자체의 변경이 없는 경우 |
+  | refactor | 코드 리팩토링 |
+  | design | CSS 등 사용자 UI 디자인 변경 |
+  | test | 테스트 코드, 리팩토링 테스트 코드 추가 |
+  | ci | CI관련 설정 수정 |
+  | build | 빌드 관련 파일 수정 |
+  | comment | 필요한 주석 추가 및 변경 |
+  | rename | 파일 또는 폴더 명을 수정하거나 옮기는 작업만인 경우 |
+  | remove | 파일을 삭제하는 작업만 수행한 경우 |
+  | !BREAKING CHANGE | 커다란 API 변경의 경우 |
+  | !HOTFIX | 급하게 치명적인 버그를 고쳐야 하는 경우 |
 
 ### 2. 제목은 뒤 본문은 빈행으로 분리
 
@@ -94,20 +94,6 @@ build: 빌드 관련 파일 수정에 대한 커밋
 - 편리하게 과거 추적 가능
 - 나중에 실무에서 익숙해지기 위해
 
-<aside>
-☝ 안지킨 사례
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/73d6ec70-6345-4ae6-98a1-ac57814c6ec2/4b8b9937-a26c-4f16-8de2-d4fbfbd97094/Untitled.png)
-
-</aside>
-
-<aside>
-☝ 지킨 사례
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/73d6ec70-6345-4ae6-98a1-ac57814c6ec2/5ffba8b7-ca0d-43a9-9b60-c075e61137a5/Untitled.png)
-
-</aside>
-
 ### 🖤 한 커밋에는 한 가지 문제만!
 
 - 추적 가능하게 유지해주기
@@ -122,7 +108,5 @@ git commit -m "FEAT: 회원가입 기능 추가
 
 - 회원가입 기능 추가"
 ```
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/73d6ec70-6345-4ae6-98a1-ac57814c6ec2/335eb35f-5297-403d-8fde-2343a41a5c66/Untitled.png)
 
 </aside>
